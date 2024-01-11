@@ -13,19 +13,31 @@ class ContainerPage extends StatelessWidget {
             Container(
               height: 300,
               width: 300,
-              color: Colors.amber,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+                color: Colors.blue,
+              ),
               child: const Center(child: Text('A')),
             ),
             Container(
               height: 300,
               width: 300,
-              color: Colors.cyan,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(180),
+                color: Colors.yellow,
+              ),
               child: const Center(child: Text('B')),
             ),
             Container(
               height: 300,
               width: 300,
-              color: Colors.red,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.purple,
+                  width: 10,
+                ),
+                color: Colors.red,
+              ),
               child: const Center(child: Text('C')),
             ),
           ],
