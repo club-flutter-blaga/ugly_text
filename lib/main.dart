@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:storybook_flutter/storybook_flutter.dart';
+import 'package:ulgy_text/pages/container_page.dart';
 import 'package:ulgy_text/pages/content_page.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Storybook(stories: [
         Story(name: 'Ugly Text', builder: (_) => const ContentPage()),
+        Story(name: 'Ugly Boxes', builder: (_) => const ContainerPage()),
       ]),
     );
   }
