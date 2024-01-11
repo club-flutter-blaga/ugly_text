@@ -13,13 +13,13 @@ class ContainerPage extends StatelessWidget {
             Container(
               height: 300,
               width: 300,
-              color: Colors.amber,
+              color: Colors.blue,
               child: const Center(child: Text('A')),
             ),
             Container(
               height: 300,
               width: 300,
-              color: Colors.cyan,
+              color: Colors.yellow,
               child: const Center(child: Text('B')),
             ),
             Container(
